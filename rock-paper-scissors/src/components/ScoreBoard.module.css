@@ -1,0 +1,15 @@
+.scoreboard{
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  margin-bottom:10px;
+}
+
+.cell{
+  background:#fbfdff;
+  padding:8px 12px;
+  border-radius:8px;
+  text-align:center;
+  min-width:80px;
+}
+.cell div{ font-weight:700; margin-top:6px }

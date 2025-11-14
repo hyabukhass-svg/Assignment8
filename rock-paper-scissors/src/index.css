@@ -1,0 +1,14 @@
+:root{
+  --muted: #6b7280;
+  --accent: #2563eb;
+}
+
+html,body,#root{
+  height:100%;
+  margin:0;
+  background: linear-gradient(180deg,#f8fafc,#eef2ff);
+}
+
+button{
+  font:inherit;
+}

@@ -1,0 +1,10 @@
+.result{ text-align:center; margin-top:6px }
+
+.message{
+  background:#fff;
+  padding:10px 14px;
+  border-radius:10px;
+  display:inline-block;
+  font-weight:600;
+  color:var(--muted);
+}

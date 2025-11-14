@@ -1,0 +1,23 @@
+/* src/App.module.css */
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gameArea {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.controls {
+  margin-top: 2rem;
+}

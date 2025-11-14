@@ -1,0 +1,17 @@
+.computerSection{ text-align:center }
+
+.heading{ margin:0 0 8px 0; color:var(--muted) }
+
+.computerBox{
+  width:150px;
+  height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto;
+  border-radius:12px;
+  background:#fbfdff;
+  box-shadow:0 8px 20px rgba(20,20,50,0.04);
+}
+
+.computerBox img{ width:110px; height:110px; object-fit:contain }
