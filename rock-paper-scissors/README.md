@@ -1,16 +1,27 @@
-# React + Vite
+# Rock — Paper — Scissors (React / Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Rock-Paper-Scissors game where you play against the computer. The game keeps track of wins, losses, and ties.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## React Compiler
+1. **Clone the repository**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone <https://github.com/hyabukhass-svgAssignment8>
+cd rock-paper-scissors
 
-## Expanding the ESLint configuration
+2. Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Run the development server
+npm run dev
+
+4. Open in browser
+Visit http://localhost:5173 to play the game
+
+Implementation Reflection
+This project uses React to manage state for the player's choice, computer's choice, and the scoreboard. Components like PlayerThrow, ComputerThrow, ResultDisplay, and ScoreBoard make the app modular. The computer’s choice logic is controlled to ensure it only picks once per round, and buttons are disabled during animation to prevent multiple selections. Overall, this project reinforced working with React hooks, inter-component communication, and state-driven UI updates.
+
+https://uncg-my.sharepoint.com/:v:/g/personal/hyabukhass_uncg_edu/IQCgnuYbxZw1RoPE5BTmTYViAeuP2v5DPkRmOa5xrGa7oFY?e=Gk5Q5o&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
